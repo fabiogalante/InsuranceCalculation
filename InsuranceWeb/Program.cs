@@ -1,15 +1,9 @@
-using Application.DependencyResolver;
-using Application.Insurances;
-using InsuranceWeb.Pages;
-using Microsoft.AspNetCore.Hosting;
-using Persistence.DependencyResolver;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
-//builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(ArithmeticAverages.Query).Assembly));
+
 
 builder.Services.AddHttpClient();
 

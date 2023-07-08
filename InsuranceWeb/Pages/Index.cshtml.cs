@@ -1,14 +1,6 @@
-﻿using Application.Insurances;
-using Bogus.Bson;
-using Bogus;
-using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
-using Persistence.Data;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Threading;
 
 namespace InsuranceWeb.Pages
 {
